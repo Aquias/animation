@@ -1,0 +1,55 @@
+.animation{
+    width: 200px;
+    height: 300px;
+    background-color: azure;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+@keyframes color{
+    from{
+        background-color: rgb(102, 218, 218);
+    }
+    to{
+        background-color: rgb(183, 221, 107);
+    }
+}
+.animation2{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    animation-name: Size;
+    animation-duration: 2s;
+}
+@keyframes Size{
+    from{
+        width: 100px;
+        height: 200px;
+    }
+    to{
+        width: 200px;
+        height: 400px;
+    }
+
+}
+.animation3{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    animation-name: mda;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+@keyframes mda{
+    from{
+
+        border-radius: 0px;
+    }
+    to{
+
+        border-radius: 200px;
+    }
+
+}
